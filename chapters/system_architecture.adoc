@@ -11,7 +11,6 @@ image::example.drawio.png[]
 
 
 ==== Example of mermaid diagram integration.
-Need some instalation and particular asciidoctor-pdf command.
 
 [mermaid]
 ----
@@ -28,9 +27,7 @@ flowchart TB
 
 
 ==== Example of plantuml diagram integration.
-Need some instalation and particular asciidoctor-pdf command :
 
-_asciidoctor-pdf -r asciidoctor-diagram ArchitectureDocument.adoc_
 [plantuml]
 ----
 ' Define actors

@@ -5,6 +5,11 @@ This is best used in VSCode with the needed plugins
 - AsciiDoc
 - Draw.io Integration : If you want to easily edit and integrate draw.io diagrams
 
+# To create a new instance fo an architecture document
+You can use the newDocumentInstance.sh script to copy needed files to integrate this template to your project. Example :
+
+`./newDocumentInstance.sh ../MyProject/doc/MyArchitecture`
+
 # Creating pdf
 **_Todo : Describe what need to be installed_**
 
@@ -12,12 +17,12 @@ To generate a pdf just run `./generate-pdf.sh`. If you prefer to manipulate asci
 
 - To create a pdf without plantuml or mermaid, simply run this command :
 
-`asciidoctor-pdf ArchitectureDocument.adoc`
+`asciidoctor-pdf main.adoc`
 
 
 - To create a pdf with plantuml, run this command :
 
-`asciidoctor-pdf -r asciidoctor-diagram ArchitectureDocument.adoc`
+`asciidoctor-pdf -r asciidoctor-diagram main.adoc`
 
 - To create a pdf with mermaid, run this command :
 
