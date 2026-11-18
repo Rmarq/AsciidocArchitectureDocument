@@ -1,5 +1,5 @@
 == Glossary
 
-Term 1:: Description
-Term 2:: Description
+[[term1]]Term 1:: Description of a term that can be linked later in the document
+[[term2]]Term 2:: An example of link is in the requirements page
 
