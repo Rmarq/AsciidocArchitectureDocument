@@ -28,13 +28,14 @@ flowchart TB
 
 ==== Example of plantuml diagram integration.
 
-[plantuml]
+[plantuml, subs="attributes"]
+// ", subs="attributes"" allows asciidoc to replace variables inside the diagram like in this example, {projname} will be replaced when previewed from main.adoc
 ----
 ' Define actors
 actor User
 
 ' Define system components
-rectangle Server
+rectangle "{projname} Server" as Server
 rectangle API
 package Module1 {
     rectangle Server1
