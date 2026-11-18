@@ -1,0 +1,67 @@
+
+ifndef::imagesdir[:imagesdir: ../images]
+== System Architecture
+
+=== Diagram
+==== Example of drawio diagram integration.
+To use it, just install *Draw.io Integration* VSCode extension allowing to directly modify a _*.drawio.png_ file.
+
+image::example.drawio.png[]
+
+
+
+==== Example of mermaid diagram integration.
+Need some instalation and particular asciidoctor-pdf command.
+
+[mermaid]
+----
+flowchart TB
+
+    Server --> API
+    API --> Module1
+    API --> Module2
+    Module1 --> Back1
+    Module2 --> Back2
+    Back1 --> API
+    Back2 --> API
+----
+
+
+==== Example of plantuml diagram integration.
+Need some instalation and particular asciidoctor-pdf command :
+
+_asciidoctor-pdf -r asciidoctor-diagram ArchitectureDocument.adoc_
+[plantuml]
+----
+' Define actors
+actor User
+
+' Define system components
+rectangle Server
+rectangle API
+package Module1 {
+    rectangle Server1
+    rectangle Back1
+}
+package Module2 {
+    rectangle Server2
+    rectangle Back2
+}
+
+' Relationships
+User --> Server
+Server --> API
+API -> Server1
+API -> Server2
+Server1 -> Back1
+Server2 -> Back2
+
+
+' Layout constraints (invisible)
+Server1 -[hidden]d-> Server2
+Server -[hidden]r-> Server1
+Server -[hidden]r-> Server2
+----
+
+=== Components
+Here we describe the components (or services) functionnalities and explain the messaging choices.

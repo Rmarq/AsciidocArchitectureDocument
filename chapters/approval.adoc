@@ -1,0 +1,9 @@
+== Approval
+
+[cols="a,a,a,a"]
+|===
+|*Role* |*Name* |*Date* |*Visa*
+
+|Product Owner | | |
+|Technical Lead | | |
+|===

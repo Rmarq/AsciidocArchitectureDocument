@@ -1,0 +1,8 @@
+== Components Architecture
+
+Here we go deeper in each component architecture
+
+
+include::components/component1.adoc[]
+include::components/component2.adoc[]
+include::components/component3.adoc[]

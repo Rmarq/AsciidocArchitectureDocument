@@ -1,0 +1,38 @@
+:projname: Product Name
+:documentname: System Architecture Document
+= {projname}: {documentname}
+:title-page:
+:toc:
+:toc-placement!:
+:toclevels: 3
+:xrefstyle: short
+:revdate: 2023-09-04
+:revnumber: 1.0
+
+
+<<<
+ifndef::imagesdir[:imagesdir: images]
+
+include::chapters/approval.adoc[]
+include::chapters/document_history.adoc[]
+include::chapters/ref_documents.adoc[]
+
+<<<
+toc::[]
+<<<
+include::chapters/glossary.adoc[]
+<<<
+
+:sectnums:
+
+include::chapters/scope.adoc[]
+
+include::chapters/requirements.adoc[]
+
+<<<
+
+include::chapters/system_architecture.adoc[]
+
+<<<
+    
+include::chapters/components_architecture.adoc[]

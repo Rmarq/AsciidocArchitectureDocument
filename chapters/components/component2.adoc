@@ -1,0 +1,9 @@
+=== Component 2
+
+==== Role
+
+==== Technology Stack
+
+==== Architecture
+
+==== Implementation Instructions

@@ -1,0 +1,9 @@
+== Scope
+=== Document Scope
+Here we explain the goal of this document. Maybe this part could be very generic
+
+=== Context
+Here we explain what is currently available, and what it lacks.
+
+=== System Goals
+Here we explain what we want the system to achieve, and why.

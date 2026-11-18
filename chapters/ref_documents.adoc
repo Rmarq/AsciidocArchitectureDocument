@@ -1,0 +1,13 @@
+
+== Referenced Documents
+
+List the documents that were used as sources or references for creating this Product Requirements Document:
+
+[cols="1,1,1,1"]
+|===
+|*Document Name* |*Version* |*Date* |*Description*
+
+|Document 1 |1.0 |2024-01-01 |Source document description
+|Document 2 |1.0 |2024-01-01 |Source document description
+|Document 3 |1.0 |2024-01-01 |Source document description
+|===
