@@ -1,0 +1,3 @@
+:projshortname: PN
+:projname: Product Name
+:documentname: System Architecture Document

@@ -4,6 +4,7 @@
 # Files and folders to copy (relative to the script directory)
 FILES=(
     "main.adoc"
+    "main_configuration.adoc"
     "README.md"
     "LICENSE"
     "generate-pdf.sh"

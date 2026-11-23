@@ -1,5 +1,4 @@
-:projname: Product Name
-:documentname: System Architecture Document
+include::main_configuration.adoc[]
 = {projname}: {documentname}
 :title-page:
 :toc:

@@ -1,9 +1,27 @@
+include::../main_configuration.adoc[]
 == Requirements
+An example of link toward <<term1>> or <<term2, Le Term Deux>>.
 
 === Stories and Use-cases
 Here we describe the stories and use cases identified which helped define the requirements
 
 === Functional Requirements
-An example of link toward <<term1>> or <<term2, Le Term Deux>>.
+:chapter: FR
+
+:reqid: 001
+:reqversion: 1
+:reqtitle: The requirement title
+:ref: {projshortname}-{chapter}-{reqid}
+[#{ref},reftext="*{ref}-{reqversion}* {reqtitle}"]
+[cols="1,4", options="rowheader"]
+|===
+2+| <<{ref}>>
+2+| 
+Description of the requirement
+|Rationale |Description of the Rationale
+|VERIFICATION |Description of the VERIFICATION mean
+|===
 
 === Non-Functional Requirements
+
+as said in <<{projshortname}-FR-001>>
